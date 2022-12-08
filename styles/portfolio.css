@@ -2,25 +2,38 @@
 font-family: 'Playfair Display', serif; (font weight- 500 & 700)
 font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)*/
 
+:root {
+}
+
 h1 {
   font-family: Playfair Display, serif;
   font-weight: bold;
-  font-size: 96px;
+  font-size: 96px !important;
 }
 
-h3 {
+p {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 36px;
 }
 
-p {
+h3 {
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 24px;
+  color: #272142;
 }
 
-/* .container {
-  max-width: 100%;
-  border: 5px solid black;
-} */
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 160px 40px;
+}
+
+.btn-branding {
+  color: white !important;
+  background-color: #6c63ff !important;
+  padding: 18px 46px !important;
+  font-size: 18px;
+  line-height: 27px;
+}
