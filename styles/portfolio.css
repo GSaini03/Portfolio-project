@@ -3,7 +3,7 @@ font-family: 'Playfair Display', serif; (font weight- 500 & 700)
 font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)*/
 
 :root {
-  --branding-color: #62778e;
+  --branding-color: #fb6661;
   --learnMore-color: #32537d;
   --heading-font-family: Playfair Display, serif;
   --default-font-family: Poppins, sans-serif;
@@ -14,6 +14,7 @@ font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)*/
   );
 }
 /* bg- #f9f7fe;
+branding: #62778e
 btn color: #6c63ff  */
 
 body {
