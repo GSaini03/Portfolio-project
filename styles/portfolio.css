@@ -1,6 +1,11 @@
 /* font-family: 'Henny Penny', cursive;
 font-family: 'Playfair Display', serif; (font weight- 500 & 700)
-font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)*/
+font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)
+
+font-family: 'Fauna One', serif;
+
+
+*/
 
 :root {
   --branding-color: #fb6661;
@@ -14,7 +19,7 @@ font-family: 'Poppins', sans-serif;  (font weight- 400, 500 & 700)*/
   );
 }
 /* bg- #f9f7fe;
-branding: #62778e
+branding color: #62778e
 btn color: #6c63ff  */
 
 body {
@@ -45,6 +50,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  font-family: ;
 }
 
 .hero {
@@ -99,10 +105,33 @@ p {
   padding: 84px 60px;
 }
 
+.project-images {
+  border: 8px solid #dddddd;
+  box-shadow: #dddddd;
+}
+
+.about-section {
+  padding: 160px 40px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 42px;
-    line-height: 2;
+    line-height: 56px;
   }
 
   h2 {
@@ -116,5 +145,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
