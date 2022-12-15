@@ -7,6 +7,7 @@ font-family: 'Fauna One', serif;
 :root {
   --branding-color: #fb6661;
   --project-color: #32537d;
+  --secondary-color: #dddddd;
   --heading-font-family: Playfair Display, serif;
   --default-font-family: Poppins, sans-serif;
 
@@ -45,6 +46,10 @@ h2 {
   color: var(--project-color);
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -52,6 +57,10 @@ p {
 }
 
 .navbar-brand {
+  color: var(--branding-color);
+}
+
+.navbar-brand:hover {
   color: var(--branding-color);
 }
 
@@ -64,6 +73,51 @@ p {
 
 .nav-link.active {
   color: var(--branding-color) !important;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 110px;
+  border-radius: 10px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 13px 20px;
+  font-size: 30px;
+  border-radius: 70%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+}
+
+.footer-text {
+  font-style: italic;
 }
 
 /* Index */
@@ -95,10 +149,11 @@ p {
   padding: 15px 35px;
   font-size: 18px;
   line-height: 27px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding:hover {
-  background: #dddddd;
+  background: var(--secondary-color);
   color: var(--branding-color);
   border-radius: 1px solid 002;
 }
@@ -113,7 +168,7 @@ p {
 }
 
 .btn-project:hover {
-  color: #dddddd;
+  color: var(--secondary-color);
   background-color: #3f6495;
   border: 2px solid var(--project-color);
   border-radius: 4px;
@@ -136,7 +191,7 @@ p {
 }
 
 .btn-branding-projects:hover {
-  color: #dddddd;
+  color: var(--secondary-color);
   background-color: #3f6495;
   border: 2px solid var(--project-color);
   border-radius: 4px;
@@ -154,10 +209,10 @@ p {
 }
 
 .project-images {
-  border: 8px solid #dddddd;
+  border: 8px solid var(--secondary-color);
 }
 
-/* About */
+/* About / Contact */
 
 .content-container {
   padding: 160px 40px;
@@ -195,6 +250,23 @@ p {
 .page-title h2 {
   font-size: 30px;
   line-height: 60px;
+}
+
+/* Contact */
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 13px 20px;
+  font-size: 30px;
+  border-radius: 70%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
