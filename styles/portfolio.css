@@ -47,7 +47,7 @@ h2 {
 }
 
 h4 {
-  font-size: 48px;
+  font-size: 45px;
 }
 
 p {
@@ -68,7 +68,7 @@ p {
   margin: 12px;
   padding: 0 30px;
   font-family: var(--heading-font-family);
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .nav-link.active {
@@ -82,8 +82,9 @@ footer {
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 110px;
+  border: 1px solid #c2c0c0;
   border-radius: 10px;
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -94,7 +95,8 @@ footer .contact-box p {
 footer .email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 23px;
+  transition: all 100ms ease-in-out;
 }
 
 footer .email-link:hover {
@@ -165,6 +167,7 @@ footer .social-links a:hover {
   padding: 15px 35px;
   font-size: 18px;
   line-height: 27px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-project:hover {
@@ -188,6 +191,7 @@ footer .social-links a:hover {
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 80px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding-projects:hover {
@@ -210,6 +214,7 @@ footer .social-links a:hover {
 
 .project-images {
   border: 8px solid var(--secondary-color);
+  box-shadow: 2px 5px 7px 1px gray;
 }
 
 /* About / Contact */
@@ -230,6 +235,22 @@ footer .social-links a:hover {
 
 .content h3 {
   font-size: 24;
+}
+
+.skill-box {
+  background: #eaeaea;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.skill-box h4 {
+  color: #fb6661bd !important;
+}
+
+.skill-list {
 }
 
 /*  Work */
@@ -261,6 +282,7 @@ footer .social-links a:hover {
   padding: 13px 20px;
   font-size: 30px;
   border-radius: 70%;
+  box-shadow: 2px 5px 7px 1px gray;
   transition: all 100ms ease-in-out;
 }
 
@@ -279,6 +301,9 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
+  h4 {
+    font-size: 30px;
+  }
   .hero {
     padding: 80px 30px;
   }
@@ -311,6 +336,11 @@ footer .social-links a:hover {
     line-height: 55px;
   }
 
+  .portfolio-pic {
+    margin: 10px !important;
+    padding: 10px !important;
+  }
+
   .page-title {
     text-align: center;
     padding: 50px;
@@ -323,6 +353,10 @@ footer .social-links a:hover {
 
   .page-title h2 {
     font-size: 30px;
+  }
+
+  footer {
+    margin: 90px 0;
   }
 }
 
